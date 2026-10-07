@@ -1,3 +1,14 @@
+# Express Order and Inventory management system
+
+This project...
+
+## Technologies Used
+
+- **Node.js**
+- **Express.js**
+- **JWT**
+- **PostgreSQL**
+
 ## ER Diagram
 <img src="inventory_transparent.png" width="500" height="800">
 
@@ -71,6 +82,10 @@ DB_NAME=inventory
    ```bash
    npm start.js
 
+## Features
+
+You can use an HTTP client like Postman to interact with the API endpoints.
+
 ## Project Structure
 
 ```text
@@ -94,7 +109,7 @@ Inventory_management_system/
 │   │   └── sql.js                   Helper function for db interaction
 │   └── server.js
 ├── inventory.sql                    SQL table definitions & insert statements
-├── db.sql                           Create database             
+├── db.sql                           Create database statement             
 └── start.js                         Main file
 ```
 
