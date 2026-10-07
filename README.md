@@ -69,7 +69,7 @@ DB_NAME=inventory
 
 5. **Start the server with:**
    ```bash
-npm start.js
+   npm start.js
 
 ## Project Structure
 
