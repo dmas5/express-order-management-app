@@ -41,19 +41,19 @@
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/VizitiuVitalie/express-postgres.git
+   cd express-postgres
 
-git clone https://github.com/YOURUSERNAME/YOURREPOSITORY.git cd YOUR_REPOSITORY
+2. **Install dependencies:**
+   ```bash
+   npm install
 
+3. **Configure PostgreSQL:**
 
-2. Install dependencies:
-
-npm install
-
-
-3. Configure the environment variables:
-
-Create a `.env` file in the root directory:
+- Create a PostgreSQL database
+- Connect to your database and insert commands from config/db.sql
 
 
 4. Configure PostgreSQL:
