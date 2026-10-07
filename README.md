@@ -1,18 +1,18 @@
-## ERP Diagram
+## ER Diagram
 <img src="inventory_transparent.png" width="500" height="800">
 
 
 
 ## Routes availeble
 
-# Customer
+### Customer
 
 | Routes | Method | Description |
 | --- | --- | --- |
 | `/api/customer` | `GET` | Fetch all customer data including the number of all orders and the total sum of purchased products |
 | `/api/customer/:id` | `DELETE` | Remove a customer by ID |
 
-# Order
+### Order
 
 | Routes | Method | Description |
 | --- | --- | --- |
@@ -21,7 +21,7 @@
 | `/api/order_details/:order_id` | `PUT` | Update (an array of) order details |
 
 
-# Product
+### Product
 
 | Routes | Method | Description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@
 | `/api/product` | `GET` | Fetch all products |
 | `/api/product` | `POST` | Create a new product |
 
-# Supplier
+### Supplier
 
 | Routes | Method | Description |
 | --- | --- | --- |
@@ -69,7 +69,7 @@ DB_NAME=inventory
 
 5. **Start the server with:**
    ```bash
-   npm start.js
+npm start.js
 
 ## Project Structure
 
