@@ -6,8 +6,7 @@ This project...
 
 - **Node.js**
 - **Express.js**
-- **JWT**
-- **PostgreSQL**
+- **MySQL**
 
 ## ER Diagram
 <img src="inventory_transparent.png" width="500" height="800">
