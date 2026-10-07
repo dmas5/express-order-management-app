@@ -39,6 +39,24 @@
 | `/api/supplier/:id` | `PUT` | Modify a supplier |
 | `/api/supplier/:id` | `DELETE` | Remove a supplier |
 
+## Installation
+
+1. Clone the repository:
+
+git clone https://github.com/YOURUSERNAME/YOURREPOSITORY.git cd YOUR_REPOSITORY
+
+
+2. Install dependencies:
+
+npm install
+
+
+3. Configure PostgreSQL:
+
+- Create a PostgreSQL database.
+- Make sure PostgreSQL is running.
+- Create the required tables by running the SQL commands from `config/db.sql` (if applicable).
+
 ## Project Structure
 
 ```text
