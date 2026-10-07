@@ -1,3 +1,8 @@
+## ERP Diagram
+<img src="incentory_transparent.png" width="500" height="800">
+
+
+
 ## Routes availeble
 
 # Customer
