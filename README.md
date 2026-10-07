@@ -43,24 +43,33 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/VizitiuVitalie/express-postgres.git
-   cd express-postgres
+   git clone https://github.com/dmas5/express-order-management-app.git
 
 2. **Install dependencies:**
    ```bash
    npm install
 
-3. **Configure PostgreSQL:**
+3. **Configure MySQL:**
 
-- Create a PostgreSQL database
-- Connect to your database and insert commands from config/db.sql
+- Create a MySql database (db.sql file)
+- Connect to your database and insert commands from inventory.sql
 
+4. **Set up env variables:**
 
-4. Configure PostgreSQL:
+- Create a `.env` file in the root directory.
+- Add the following variables:
+```makefile
+PORT=3004
+HOSTNAME=127.0.0.1
+DB_HOST=localhost
+DB_USER=your-user-name
+DB_PASSWORD=your-password
+DB_NAME=inventory
+```
 
-- Create a PostgreSQL database.
-- Make sure PostgreSQL is running.
-- Create the required tables by running the SQL commands from `config/db.sql` (if applicable).
+5. **Start the server with:**
+   ```bash
+   npm start.js
 
 ## Project Structure
 
