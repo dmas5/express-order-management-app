@@ -51,7 +51,12 @@ git clone https://github.com/YOURUSERNAME/YOURREPOSITORY.git cd YOUR_REPOSITORY
 npm install
 
 
-3. Configure PostgreSQL:
+3. Configure the environment variables:
+
+Create a `.env` file in the root directory:
+
+
+4. Configure PostgreSQL:
 
 - Create a PostgreSQL database.
 - Make sure PostgreSQL is running.
