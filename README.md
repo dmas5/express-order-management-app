@@ -6,9 +6,9 @@ The API supports essential CRUD (Create, Read, Update, Delete) operations, along
 
 ## Technologies Used
 
-- **Node.js**– JavaScript runtime environment.
-- **Express.js**
-- **MySQL**
+- **Node.js** JavaScript runtime environment.
+- **Express.js** Web framework for building RESTful API endpoints.
+- **MySQL** Relational database for storing and managing application data.
 
 ## ER Diagram
 <img src="inventory_transparent.png" width="500" height="800">
