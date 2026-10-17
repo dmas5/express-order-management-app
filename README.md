@@ -1,6 +1,8 @@
 # Express Order and Inventory management system
 
-This project...
+This project is a RESTful API built with Node.js, Express.js, and MySQL for managing customers, orders, products, and suppliers. It provides endpoints for handling customer information, tracking orders and their details, managing product inventory, and maintaining supplier records.
+
+The API supports essential CRUD (Create, Read, Update, Delete) operations, along with additional functionality for retrieving customer order statistics and creating orders with associated order details.
 
 ## Technologies Used
 
