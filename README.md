@@ -6,7 +6,7 @@ The API supports essential CRUD (Create, Read, Update, Delete) operations, along
 
 ## Technologies Used
 
-- **Node.js**
+- **Node.js**– JavaScript runtime environment.
 - **Express.js**
 - **MySQL**
 
@@ -15,7 +15,7 @@ The API supports essential CRUD (Create, Read, Update, Delete) operations, along
 
 
 
-## Routes availeble
+## Routes available
 
 ### Customer
 
